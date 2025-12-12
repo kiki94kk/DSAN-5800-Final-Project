@@ -112,16 +112,25 @@ Extracts checkpoint logs and produces training curves:
 
 ## 7. Repository Structure
 
-├── baseline_training.py
-├── lora_training.py
-├── plot_training_curves.py
-├── baseline_results.json
-├── lora_r8_results_.json
-├── lora_r16_results_.json
-├── baseline_training_curves.png
-├── README.md
-└── report/
-└── main.tex
+|-- 5800_final.pdf
+|-- DB_LClassifier.ipynb
+|-- README.md
+`-- content
+    |-- accuracy_vs_params.png
+    |-- all_results_20251212_165431.json
+    |-- all_results_imdb_20251212_192354.json
+    |-- final_comparison.png
+    |-- lora_r8_epoch_ablation.png
+    `-- results_lora_r8_e3
+        `-- checkpoint-12630
+            |-- README.md
+            |-- adapter_config.json
+            |-- adapter_model.safetensors
+            |-- optimizer.pt
+            |-- rng_state.pth
+            |-- scheduler.pt
+            |-- trainer_state.json
+            `-- training_args.bin
 
 
 ---
