@@ -1,0 +1,67 @@
+[
+  {
+    "experiment": "baseline",
+    "model": "distilbert-base-uncased",
+    "method": "frozen_backbone_classifier",
+    "rank": null,
+    "num_epochs": 3,
+    "trainable_params": 592130,
+    "total_params": 66955010,
+    "trainable_percentage": 0.8843699672362083,
+    "accuracy": 0.8360091743119266,
+    "f1": 0.836012410295958,
+    "loss": 0.36739587783813477
+  },
+  {
+    "experiment": "lora",
+    "model": "distilbert-base-uncased",
+    "method": "lora",
+    "rank": 8,
+    "num_epochs": 1,
+    "trainable_params": 739586,
+    "total_params": 67694596,
+    "trainable_percentage": 1.0925332946813067,
+    "accuracy": 0.8830275229357798,
+    "f1": 0.8830072039899022,
+    "loss": 0.2840922772884369
+  },
+  {
+    "experiment": "lora",
+    "model": "distilbert-base-uncased",
+    "method": "lora",
+    "rank": 8,
+    "num_epochs": 2,
+    "trainable_params": 739586,
+    "total_params": 67694596,
+    "trainable_percentage": 1.0925332946813067,
+    "accuracy": 0.8910550458715596,
+    "f1": 0.8909883381162379,
+    "loss": 0.28369754552841187
+  },
+  {
+    "experiment": "lora",
+    "model": "distilbert-base-uncased",
+    "method": "lora",
+    "rank": 8,
+    "num_epochs": 3,
+    "trainable_params": 739586,
+    "total_params": 67694596,
+    "trainable_percentage": 1.0925332946813067,
+    "accuracy": 0.8910550458715596,
+    "f1": 0.8909745526255011,
+    "loss": 0.29288536310195923
+  },
+  {
+    "experiment": "lora",
+    "model": "distilbert-base-uncased",
+    "method": "lora",
+    "rank": 16,
+    "num_epochs": 3,
+    "trainable_params": 887042,
+    "total_params": 67842052,
+    "trainable_percentage": 1.307510568813573,
+    "accuracy": 0.8944954128440367,
+    "f1": 0.8943791957058408,
+    "loss": 0.29088273644447327
+  }
+]
